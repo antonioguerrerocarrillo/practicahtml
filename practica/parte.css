@@ -1,0 +1,472 @@
+body {
+	margin: 0;
+}
+#fondo {
+	background-image: url("fondo.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 650px; /* altura de la imagen de fondo */
+	padding: 0; /* relleno */
+	top: 0; /* espacio que va a ver arriba*/
+	left:0; 
+	right: 0;
+	width: 100%; /* ancho de la pagina */
+	background-size: cover; /* rellene el contenedor en el que esta*/
+}
+#cabecera1 {
+	overflow: auto;
+}
+#cajaizq{
+    font-family: sans-serif;
+}
+#partelogo {
+	padding-top: 20px;
+    padding-left: 20px;
+    width: 20%;
+    float: left;
+    overflow: auto;
+}
+#vision {
+	float: left;
+	overflow: visible;
+}
+#menu {
+	display: block;
+	 font-size: 0.75em; 
+	 margin-left: 600px; 
+	 width: 650px;
+	 color: #848484; 
+	 text-align: center;
+	 float:right;
+     position: fixed;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.35em;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #444;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #232323;
+    min-width: 160px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.15), 4px 10px 15px rgba (0,0,0,.1);
+    z-index: 1;
+    text-align: left;
+}
+
+.dropdown-content a {
+    background-color: transparent;
+    font-size: 16px;
+    color: rgba(255,255,255,.7);
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.dropdown-content a:hover {
+    color: red;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#cajaizq {
+    height: 600px;
+}
+#parteizq {
+   padding-top: 90px;
+   margin-left: 70px;
+   width: 900px;
+   font-size: 14px;
+   height: 200px;
+   color: #fff;
+}
+
+#descripcionh1{
+  font-size: 5.7em; 
+  line-height: 1.5em;
+  text-align: left;
+  margin-top: 10px;
+
+}
+hr {
+    width: 80px;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 0px;
+}
+#fondo2{
+    background-image: ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 950px; /* altura de la imagen de fondo */
+    padding: 0; /* relleno */
+    top: 0; /* espacio que va a ver arriba*/
+    left:0; 
+    right: 0;
+    width: 100%; /* ancho de la pagina */
+    background-size: cover; /* rellene el contenedor en el que esta*/
+}
+#contenidozapa{
+    padding-top: 200px;
+    margin-left: 100px;
+    color: rgb(68,68,68);
+    font-family: barlow;
+    font-size: 16px;
+    font-weight: 400;
+    height: 56px;
+    margin-top: 20px;
+    text-align: left;
+    width: 600px;
+}
+#digitalzapa{
+    font-size: 36px;
+    color:  #111;
+    font-family: sans-serif;
+}
+#deszapa {
+    width: 600px;
+    height: 55px;
+    font-family: sans-serif;
+}
+#listazapa{
+    color: rgb(17,17,17);
+    font-size: 20px;
+    font-weight: 400;
+    height: 30px;
+    line-height: 30px;
+    float: right;
+    font-family: sans-serif;
+}
+#listazapa2{
+    color: rgb(17,17,17);
+    font-size: 20px;
+    font-weight: 400;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-left: 450px;
+    margin-top: -35px;
+    font-family: sans-serif;
+}
+#listaszapas ul li{
+    width: 600px;
+    display: list-item;
+
+}
+#fotoza{
+    background-image: url("zapanike.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 800px;
+    display: inline-block;
+    width: 500px;
+    height: 650px;
+    margin-top: -600px;
+}
+#boton{
+
+   background-color: rgba(0, 0, 0, 0);
+   border: 1px solid black;
+   width: 125px;
+   height: 40px;
+   margin-top: 200px;
+   vertical-align: middle;
+
+}
+
+#boton a{
+
+   padding: 0 20px;
+   text-decoration: none;
+   display: inline-block;
+   box-sizing: border-box;
+   text-align: center;
+   color: rgb(68, 68, 68);
+   vertical-align: middle;
+   font-size: 16px;
+   line-height: 38px;
+}
+
+#boton:hover{
+
+   cursor: pointer;
+   background-color: gray;
+   border: none;
+}
+
+#boton a:hover{
+
+   color: white;
+}
+#fondo3 {
+    background-color: #151515;
+    background-image: ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 650px; /* altura de la imagen de fondo */
+    padding: 0; /* relleno */
+    top: 0; /* espacio que va a ver arriba*/
+    left:0; 
+    right: 0;
+    width: 100%; /* ancho de la pagina */
+    background-size: cover; 
+}
+#partearriba {
+    color: white;
+    margin-top: -100px;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+#boton2{
+
+   background-color: #151515; /* color del fondo */
+   border: 1px solid white; /* borde del boton */
+   width: 125px; /* altura */
+   height: 40px;
+   margin-top: -130px; /* desplazamiento del boton hacia arriba o abajo */
+   margin-right: 30px; /* desplazamiento hacia la derecha */
+   vertical-align: middle;
+   text-align: center; /* alineacion de las letras del boton */
+   float:right; /* que se pegue en el lado derecho */
+
+
+}
+#boton2 a{
+   padding: 0 20px;
+   text-decoration: none;
+   display: inline-block;
+   box-sizing: border-box;
+   text-align: right;
+   color: white;
+   vertical-align: middle;
+   font-size: 16px;
+   line-height: 38px;
+}
+
+#boton2:hover{
+
+   cursor: pointer;
+   background-color: gray;
+   border: none;
+}
+
+#boton2 a:hover{
+   color: white;
+}
+#caja{
+    padding-top: 200px;
+    margin-left: 100px;
+    color: rgb(68,68,68);
+    font-family: barlow;
+    font-size: 16px;
+    font-weight: 400;
+    height: 56px;
+    margin-top: 20px;
+    text-align: left;
+    width: 600px;
+}
+#foto1{
+    background-image: url("foto1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 290px; /* altura de la imagen de fondo */
+    padding: 0; /* relleno */
+    top: 0; /* espacio que va a ver arriba*/
+    left:10; 
+    right: 0;
+    width: 27%; /* ancho de la pagina */
+    background-size: cover;
+}
+#foto2{
+    background-image: url("foto2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 270px; /* altura de la imagen de fondo */
+    padding: 0; /* relleno */
+    top: 0; /* espacio que va a ver arriba*/
+    left:0; 
+    right: 0;
+    width: 27%; /* ancho de la pagina */
+    background-size: cover;
+    margin-top: -270px;
+    margin-left: 500px;
+}
+#foto3{
+    background-image: url("foto3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 290px; /* altura de la imagen de fondo */
+    padding: 0; /* relleno */
+    top: 0; /* espacio que va a ver arriba*/
+    left: 0; 
+    right: 10;
+    width: 27%; /* ancho de la pagina */
+    background-size: cover;
+    float: right;
+    margin-top: -270px;
+}
+#fondo4 {
+    background-color: #FAFAFA;
+    background-image: ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px; /* altura de la imagen de fondo */
+    padding: 0; /* relleno */
+    top: 0; /* espacio que va a ver arriba*/
+    left:0; 
+    right: 0;
+    width: 100%; /* ancho de la pagina */
+    background-size: cover; 
+}
+#letrasizq{
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-top: 200px;
+    margin-left: 50px;
+}
+#letrasder{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: -30px;
+    margin-right: 50px;
+    float: right;
+}
+#letrasder2{
+    font-size: 12px;
+    font-family: sans-serif;
+    padding-top: 30px;
+    margin-right: -60px;
+    float: right;
+}
+#fondo5 {
+    background-color: #151515;
+    background-image: ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 650px; /* altura de la imagen de fondo */
+    padding: 0; /* relleno */
+    top: 0; /* espacio que va a ver arriba*/
+    left:0; 
+    right: 0;
+    width: 100%; /* ancho de la pagina */
+    background-size: cover; 
+}
+#letras{
+    font-size: 4em;
+    font-family: sans-serif;
+    padding-top: 200px;
+    margin-left: 50px;
+    color: white;
+
+}
+#des{
+    color: white;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    font-weight: 400;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 700px;
+    margin-top: -130px;
+}
+#des2{
+    color: #848484;
+    font-size: 12px;
+    font-family: sans-serif;
+    height: 30px;
+    margin-left: 7px;
+    margin-top: 15px;
+}
+#numero{
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    height: 30px;
+    margin-left: 7px;
+    margin-top: 35px;
+}
+#correo{
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    height: 30px;
+    margin-left: 7px;
+    margin-top: 1px;
+}
+#west{
+    color: white;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    font-weight: 400;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 1000px;
+    margin-top: -30px;
+}
+#west2{
+    color: #848484;
+    font-size: 12px;
+    font-family: sans-serif;
+    height: 30px;
+    margin-left: 7px;
+    margin-top: 15px;
+}
+#numero2{
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    height: 30px;
+    margin-left: 7px;
+    margin-top: 35px;
+}
+#correo2{
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    height: 30px;
+    margin-left: 7px;
+    margin-top: 1px;
+}
+#fvision{
+    color: #E6E6E6;
+    font-size: 24px;
+    font-family: sans-serif;
+    height: 30px;
+    margin-left: 70px;
+    margin-top: 250px;
+}
+#fdigital{
+    color: #848484;
+    font-size: 12px;
+    font-family: sans-serif;
+    height: 30px;
+    margin-left: 140px;
+    margin-top: -22px;
+}
